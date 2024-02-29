@@ -4,102 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .home{
-          
-        }
-        .top{
-            background-color: rgba(0, 0, 0, 0.8);
-            color: white;
-            display: flex;
-            flex-direction: row;
-        }
-        .menu{
-            background-color: rgba(14, 170, 209, 0.8);
-            color: white;
-            display: flex;
-            flex-direction: row;
-            height: 40px;
-            
-            text-decoration: none;
-        }
-        .main{
-            display: flex;
-            flex-direction: row;
-        }
-        .bottom{
-          
-            display: flex;
-            flex-direction: row;
-        }
-        .image{
-            width: 150px;
-            height: 150px ;
-            margin-top: 6px;
-            margin-left: 50px;
-            margin-left: 50px;
-        }
-        .left{
-            background-color: bisque;
-            align-items: left;
-            margin-right: 300px;
-            padding-bottom: 300px;
-            padding-top: 0px;
-
-        }
-        .h1{
-            text-align: center;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="home">
-        <!--The Top Of the Project-->
+ <!--The Top Of the Project-->
         <div class="top">
-            <div style="flex: 1;"
-            
-                            >
-                        <img class="image" src="obu logo.png" alt="Obu Logo">
-                        </div>
-            <div style="    flex: 2; 
+               <div style="flex: 1;"
+                                    >
+                                <img class="image" src="obu logo.png" alt="Obu Logo">
+                                </div>
+
+              <div style="  flex: 2; 
                             margin-right: 250px;
-                           
-                            font-size: 58px;
+                            font-size: 40px;
                             text-align: center;
                             font-family:'Times New Roman', Times, serif;
                         "
-                >Oda Bultum Universty  Vehicle Management System </div>
+                >Oda Bultum Universty <br>  Vehicle Management System </div>
         </div>
-        <!--the Top menu -->
-                <div class="menu">
-                    <div style="flex: 1; "></div>
-                    <div style="flex: 1; max-width: 100px;  margin-top: 8px; "> <a href=""> Home</a> </div>
-                    <div style="flex: 1; max-width: 100px;  margin-top: 8px;"> <a href="">service</a> </div>
-                    <div style="flex: 1; max-width: 100px;  margin-top: 8px;"> <a href="">Login</a> </div>
-                    <div style="flex: 1; max-width: 100px;  margin-top: 8px;"> <a href="">About us</a> </div>
-                    <div style="flex: 1; "></div>
+  <!--the Top menu -->
+
+        <div class="menu">
+
+                <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li class="service"><a href="">Service</a></li>
+                    
+                    <li><a href="">Rout</a></li>
+                    <li><a href="">About Us</a>
+                        <div class="sub-menu-1">
+                               <ul>
+                                   <li><a href="">Mission</a></li>
+                                   <li><a href="">Vistion</a></li>
+                                   <li><a href="">Team</a></li>
+                               </ul>
+   
+                        </div>
+                       </li>
+                    
+                    <li><a href="">News</a></li>
+                    <li><a href="">Login</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="">Us Admin</a></li>
+                                <li><a href="">Us Dirver</a></li>
+                                <li><a href="">Us Schudler</a></li>
+                            </ul>
+
+                     </div>
+                    </li>
+                   
+                </ul>        
+                      
+                      
+        </div>
+
+ <!--The Main Of the Project-->
+
+     <div class="main">
+         <div class="flex-home">
+                 <div class="main-home">
+                        <h1 class="h1">WELCOME TO ODA BULTUM University <br> VEHICLE MANAGEMENT SYSTEM</h1>
+                        <p class="left-text">Oda Bultum University has start working in Vehicle managment system </p>
+                        <img class="logo_image" src="download-removebg-preview.png" alt="Image of Goolge">
+                        <a href="www.google.com">Google</a>
+                 </div>
+
+                 <div class="Aboutus">
+                        <h1 class="h1">About Us</h1>
+                        <p class="left-text">Oda Bultum University has start working in Vehicle managment system </p>
+                         <img class="logo_image" src="download-removebg-preview.png" alt="Image of Goolge">
+                        <a href="www.google.com">Google</a>
                   </div>
-       
-       
 
-            <!--The Main Of the Project-->
-            <div class="main">
-                <div>
-                    <div class="left">
-                        <h1 class="h1">News</h1>
-                        <p>Vehicle managment system is start working in odabultum university</p>
-                       <a href="www.google.com">Google</a>
-    
-                    </div>
-                    <div class=""></div>
-                    <div></div>
-        
-                </div>
-    
-            </div>
+                <div class="news">
+                    <h1 class="h1">News</h1>
+                    <p class="left-text">Oda Bultum University has start working in Vehicle managment system </p>
+                   <img class="logo_image" src="download-removebg-preview.png" alt="Image of Goolge">
+                   <a href="www.google.com">Google</a>
+              </div>
+       </div>
+ </div>
+           
 
-     <!--The bottom Of the Project-->
+ <!--The bottom Of the Project-->
 
         <div class="bottom">
             <div></div>

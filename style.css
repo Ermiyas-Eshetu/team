@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+}
+.home{
+    text-decoration: none;
+  }
+  .top{
+      background-image: linear-gradient(to bottom right, #7e9cb8,#02254bc0, #02254b,#02254b,#02254b , #02254bbd,#7e9cb8);
+      color: white;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: 700;
+    
+  }
+ 
+  
+    .menu{
+        margin-top: -8px;
+        background-color: #02254b;
+        text-align: center;
+        border: 2px solid #fff;
+        border-radius: 11px;
+    }
+  .menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+  }
+  .menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .active, .menu ul li:hover{
+    background: #7e9cb8;
+    border-radius: 5px;
+  }
+  .sub-menu-1{
+    display: none;
+  }
+  .menu ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: #02254b;
+    margin-top: 15px;
+    margin-left: -15px;
+  } 
+  .menu ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+  }
+  .menu ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding:10px;
+    border-bottom: 1px solid #fff;
+    text-align: left;
+    background: transparent;
+    border-radius: 0;
+
+  }
+  .menu ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+  }
+  .menu ul li:hover .sub-menu-1 ul  :hover{
+    background-color: #7e9cb8;
+  }
+
+  .main{
+
+  }
+  .flex-home{
+    display: flex;
+    flex-direction: row;
+
+  }
+  .main-home{
+    flex: 1;
+  }
+
+  .news{
+    flex: 1;
+  }
+  .Aboutus{
+    flex: 1;
+  }
+
+  .bottom{
+    
+      display: flex;
+      flex-direction: row;
+  }
+  .image{
+      width: 150px;
+      height: 150px ;
+      margin-top: 6px;
+      margin-bottom: 6px;
+      margin-left: 80px;
+   
+  }
+  .logo_image{
+      width: 50px;
+      height:50px ;
+  }
+  .news{
+      background-color: #02254b;
+      padding-top: 50px;
+      border-radius: 50px;
+      max-width: cover;
+      
+  }
+  .h1{
+      text-align: center;
+  }
+  .left-text{
+      text-align: justify;
+      margin: 10px;
+  }
